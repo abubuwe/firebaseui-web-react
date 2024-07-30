@@ -9,3 +9,6 @@
 - Now automatically switches to port 5005
 - had to build actual package locally (still using ci)
 - seems to still be working
+
+## Code after bumping firebaseui to 6.1.0
+- Seems to work out of the box

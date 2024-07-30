@@ -14,5 +14,5 @@ interface Props {
   className?: string;
 }
 
-export const StyledFirebaseAuth: React.FC<Props>;
-export const FirebaseAuth: React.FC<Props>;
+export const StyledFirebaseAuth: (props: Props) => JSX.Element;
+export const FirebaseAuth: (props: Props) => JSX.Element;
